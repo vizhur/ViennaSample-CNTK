@@ -6,4 +6,4 @@ This code is adapted from the CNTK tutorials:
 
 To execute the code:
 
-$az ml execute start -c docker ./mnist_cntk.py
+$az ml execute start -c docker ./cntk_mnist.py
