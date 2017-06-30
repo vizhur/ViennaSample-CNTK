@@ -1,3 +1,5 @@
+# Classifying MNIST dataset using CNTK
+
 Using CNTK to create a multi-layer neural network to classify MNISt dataset.
 
 This code is adapted from the CNTK tutorials:
