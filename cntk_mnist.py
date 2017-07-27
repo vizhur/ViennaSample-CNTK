@@ -14,7 +14,7 @@ import time
 import pandas 
 
 import cntk as C
-from azureml_sdk import data_collector
+from azureml.sdk import data_collector
 
 # Functions to load MNIST images and unpack into train and test set.
 # - loadData reads image data and formats into a 28x28 long array
