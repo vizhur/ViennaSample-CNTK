@@ -10,4 +10,4 @@ name: project_environment
 dependencies:
   - python=3.5.2
   - pip:
-    - https://cntk.ai/PythonWheel/CPU-Only/cntk-2.0-cp35-cp35m-linux_x86_64.whl
+    - https://cntk.ai/PythonWheel/CPU-Only/cntk-2.1-cp35-cp35m-win_amd64.whl
