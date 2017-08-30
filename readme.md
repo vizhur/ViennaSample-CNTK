@@ -8,5 +8,5 @@ This code is adapted from the CNTK tutorials:
 
 To execute the code:
 ```
-$az ml execute start -c docker ./cntk_mnist.py
+$az ml experiment submit -c docker ./cntk_mnist.py
 ```
