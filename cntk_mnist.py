@@ -14,7 +14,7 @@ import time
 import pandas 
 
 import cntk as C
-from azureml.sdk import data_collector
+from azureml.logging import get_azureml_logger
 
 # Functions to load MNIST images and unpack into train and test set.
 # - loadData reads image data and formats into a 28x28 long array
@@ -120,7 +120,7 @@ def create_model(features):
 
 
 if __name__ == '__main__':
-    run_logger = data_collector.current_run() 
+    run_logger = get_azureml_logger() 
 
     try: 
         from urllib.request import urlretrieve 
